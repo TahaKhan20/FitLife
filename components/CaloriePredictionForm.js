@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { apiUrl } from './server';
 
 const activityOptions = [
   { label: 'Yoga', value: 0 },
