@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { apiUrl } from './server';
 
 export default function FitnessLevelForm() {
   const [formData, setFormData] = useState({
