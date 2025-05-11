@@ -40,7 +40,7 @@ export default function WeightForm() {
 
       const data = await res.json();
       if (res.ok) {
-        setPrediction(data.predicted_weight.toFixed(2));
+        setPrediction(data.weight_kg.toFixed(2));
         setError(null);
       } else {
         throw new Error(data.detail || 'Prediction failed');
